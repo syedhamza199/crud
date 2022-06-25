@@ -21,6 +21,7 @@
     </select>
     <div>
         <input type="submit" name="submit" value="submit" id="">
+        <button name="btn" onclick="<?php header("Location: form.php"); ?>">Form</button>
     </div>
     </form>
     <?php
@@ -49,8 +50,6 @@
         //             break; 
         //         }   
         // }
-    
-            
             
             
     ?>

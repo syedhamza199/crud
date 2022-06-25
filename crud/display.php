@@ -37,7 +37,7 @@
                     <tr>
                         <td><?php echo $data['id'] . "<br>"; ?></td>
                         <td><?php echo $data['Email'] . "<br>"; ?></td>
-                        <td><?php echo $data['Password'] .  "<br>"; ?></td>
+                        <td><?php echo $data['Passwords'] .  "<br>"; ?></td>
                         <td><a href="update.php?id=<?php echo $data['id'] ?>" data-toggle="tooltip" title="Update"><i class="fa fa-edit"></i></a></td>
                         <td><a href="delete.php?id=<?php echo $data['id'] ?>" data-toggle="tooltip" title="Remove"><i class="fa fa-trash"></i></a></td> 
                     </tr>
