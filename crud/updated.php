@@ -3,7 +3,7 @@ include ('conn.php');
     $idupdate = $_POST['id'];
     $email = $_POST['email'];
     $pass = $_POST['password'];
-    $sql = "UPDATE `users_data` SET `id`='$idupdate',`Email`='$email',`Passwords`='$pass' WHERE $idupdate";
+    $sql = "UPDATE `users_data` SET `id`='$idupdate',`User_email`='$email',`User_password`='$pass' WHERE $idupdate";
     $result = mysqli_query($connect, $sql);
     if ($result) {
         echo "updated !";

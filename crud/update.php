@@ -21,7 +21,7 @@
     //         $idupdate = $_POST['id'];
     //         $email = $_POST['email'];
     //         $pass = $_POST['password'];
-    //         $sql = "UPDATE `users_data` SET `id`='$idupdate',`Email`='$email',`Passwords`='$pass' WHERE $idupdate";
+    //         $sql = "UPDATE `users_data` SET `id`='$idupdate',`Email`='$email',`Password`='$pass' WHERE $idupdate";
     //         $result = mysqli_query($connect, $sql);
     //         if ($result) {
     //             echo "updated !";
@@ -37,13 +37,13 @@
         <div class="mb-3 mt-3">
             <label for="email" class="form-label">Email:</label>
             <input type="email" class="form-control" id="email" placeholder="Enter email"
-            name="email" value="<?php echo $arrdata['Email']; ?>" required>
+            name="email" value="<?php echo $arrdata['User_email']; ?>" required>
         </div>
         <div class="mb-3">
             <label for="pwd" class="form-label">Password:</label>
-            <input type="text" class="form-control" id="pwd" placeholder="Enter password"
-            name="password" value="<?php echo $arrdata['Passwords']; ?>" required>
-            <input type="text" value="<?php echo $arrdata['id'];?>" name="id">
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+            name="password" value="<?php echo $arrdata['User_password']; ?>" required>
+            <input type="hidden" value="<?php echo $arrdata['id'];?>" name="id">
         </div>
         <button type="submit" class="btn btn-primary">Update</button>
     </form>

@@ -36,8 +36,8 @@
 
                     <tr>
                         <td><?php echo $data['id'] . "<br>"; ?></td>
-                        <td><?php echo $data['Email'] . "<br>"; ?></td>
-                        <td><?php echo $data['Passwords'] .  "<br>"; ?></td>
+                        <td><?php echo $data['User_email'] . "<br>"; ?></td>
+                        <td><?php echo $data['User_password'] .  "<br>"; ?></td>
                         <td><a href="update.php?id=<?php echo $data['id'] ?>" data-toggle="tooltip" title="Update"><i class="fa fa-edit"></i></a></td>
                         <td><a href="delete.php?id=<?php echo $data['id'] ?>" data-toggle="tooltip" title="Remove"><i class="fa fa-trash"></i></a></td> 
                     </tr>
@@ -50,6 +50,8 @@
             </tbody>
 
         </table>
+        <h4>Insert data</h4>
+    <a href="form.php"> Click Here </a>
 </body>
 
 </html>

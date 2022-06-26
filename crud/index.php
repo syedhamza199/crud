@@ -21,7 +21,8 @@
     </select>
     <div>
         <input type="submit" name="submit" value="submit" id="">
-        <button name="btn" onclick="<?php header("Location: form.php"); ?>">Form</button>
+        <h4>Go To Form</h4>
+    <a href="form.php"> Click Here </a>
     </div>
     </form>
     <?php
