@@ -40,7 +40,7 @@ if (isset($_POST['submit'])) {
   $email = $_POST['email'];
   $pass = $_POST['password'];
 
-  $sql = "INSERT INTO users_data (Email,Password) VALUES ('$email','$pass')";
+  $sql = "INSERT INTO users_data (User_email,User_password) VALUES ('$email','$pass')";
 
   $result = mysqli_query($connect, $sql);
 

@@ -21,6 +21,8 @@
     </select>
     <div>
         <input type="submit" name="submit" value="submit" id="">
+        <h4>Go To Form</h4>
+    <a href="form.php"> Click Here </a>
     </div>
     </form>
     <?php
@@ -49,8 +51,6 @@
         //             break; 
         //         }   
         // }
-    
-            
             
             
     ?>
